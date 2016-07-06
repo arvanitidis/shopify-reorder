@@ -7,11 +7,11 @@ Placed this in customer account template to display list of past orders with opt
 <table class="full">
   <thead>
     <tr>
-      <th {% if settings.language_enable %}data-translate="customer.orders.order_number"{% endif %}>{{ 'customer.orders.order_number' | t }}</th>
-      <th {% if settings.language_enable %}data-translate="customer.orders.date"{% endif %}>{{ 'customer.orders.date' | t }}</th>
-      <th {% if settings.language_enable %}data-translate="customer.orders.payment_status"{% endif %}>{{ 'customer.orders.payment_status' | t }}</th>
-      <th {% if settings.language_enable %}data-translate="customer.orders.fulfillment_status"{% endif %}>{{ 'customer.orders.fulfillment_status' | t }}</th>
-      <th {% if settings.language_enable %}data-translate="customer.orders.total"{% endif %}>{{ 'customer.orders.total' | t }}</th>
+      <th>{{ 'customer.orders.order_number' | t }}</th>
+      <th>{{ 'customer.orders.date' | t }}</th>
+      <th>{{ 'customer.orders.payment_status' | t }}</th>
+      <th>{{ 'customer.orders.fulfillment_status' | t }}</th>
+      <th>{{ 'customer.orders.total' | t }}</th>
       <th>&nbsp;</th>
     </tr>
   </thead>
